@@ -1,0 +1,24 @@
+img {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    width: 150px;
+
+
+  }
+
+  .invert {filter: invert(100%);}
+  .huerotate {filter: hue-rotate(180deg);}
+  .contrast {filter: contrast(200%);}
+  .grayscale {filter: grayscale(100%);}
+
+
+  body{
+    font-family: arial;
+    background-color: lightblue;
+}
+
+
+h2 {
+  background-color: darkslategrey;
+}

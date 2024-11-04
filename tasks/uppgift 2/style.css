@@ -1,0 +1,85 @@
+body {
+    margin:0 ;
+    padding: 0;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  
+}
+
+h1
+h2
+h3
+header {
+    background-color:rgb(170, 217, 255);
+    padding-block: 2rem;
+    padding-inline: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+section {
+    background-color: rgb(255, 228, 165);
+}
+
+
+
+.primary-navigation {
+    display:flex;
+    
+    gap: 1rem;
+    
+    color: 111px;
+    list-style: cirle;
+}
+
+a:link {
+  color: rgb(0, 255, 0);
+  background-color: transparent;
+  text-decoration: none;
+  text-underline-offset: 0.4em;
+  text-decoration-color: black;
+  
+  transition: 350ms ease-in-out;
+}
+
+a:visited {
+  color: rgb(255, 227, 144);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(0, 255, 247);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+body{
+    font-family: arial;
+    background-color: rgb(172, 175, 255);
+}
+
+h1 {
+font-weight: normal;
+font-weight: 700;
+font-weight: 400;
+color: orange;
+}
+h2,h3,h4,h5,h6 {
+font-family: sans-serif;
+}
+
+img {
+  display: block; 
+  
+  max-width: 100%;
+
+  filter:blur(22px);
+  transition: filter 250ms ease ease-in-out
+}
